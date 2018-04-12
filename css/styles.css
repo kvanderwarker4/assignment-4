@@ -41,6 +41,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 body {
@@ -194,8 +195,35 @@ img {
     overflow: hidden;
 }
 
+form p {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: center;
+}
+
+form label {
+    flex:1;
+    justify-content: center;
+}
+
+form input select{
+    flex: 1;
+    margin: 0 1em;
+    border-radius: 5px;
+}
+
+form select {
+    text-align: center;
+    justify-content: center;
+}
+
+form-button {
+    margin-right: 1em;
+}
+
 footer {
     background-color: #FCC814;
+    height: 100%;
     flex-direction: column;
     align-items: center;
     display: flex;
