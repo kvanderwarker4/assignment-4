@@ -250,7 +250,8 @@ footer nav li {
     .cont1,
     header,
     main,
-    footer {
+    footer 
+    form p{
         flex-direction: column;
     }
 }
