@@ -203,7 +203,7 @@ form p {
 
 form label {
     flex:1;
-    justify-content: center;
+    justify-content:center;
 }
 
 form input select{

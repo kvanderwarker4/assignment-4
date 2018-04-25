@@ -39,7 +39,7 @@
             </p>
              <p>
                 <label for="comments">Comments:</label>
-                 <textarea name="last-name" id="last-name"></textarea>
+                 <textarea name="comments" id="comments"></textarea>
             </p>
             <p>
                 <label for="how-did-you">How did you hear about us?</label>
@@ -50,12 +50,12 @@
                     <option value="Other"> Other </option>
                 </select>
             </p>
-            <p>
-                <label for="get-updates">Would you like to get updates from the website?</label>
-                <input type="radio" name="get-updates" value=yes checked="true"> Yes
-                <br>
-                <input type="radio" name="get-updates" value=no checked="true"> No
-            </p>
+            <div class="radio-buttons">
+                <label for="updates">Would you like website updates?</label>
+                <input type="radio" name="updates" value="Yes" checked>Yes
+                <input type="radio" name="updates" value="No">No
+            </div>
+            <br>
             <p>
                 <label></label>
                 <input class="form-button" type="submit" value="Submit">
